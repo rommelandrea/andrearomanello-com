@@ -20,7 +20,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/rommelandrea/astro-paper",
+    href: "https://github.com/rommelandrea",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
