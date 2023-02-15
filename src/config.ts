@@ -3,16 +3,16 @@ import type { SocialObjects } from "./types";
 export const SITE = {
   website: "https://andrearomanello.com/",
   author: "Andrea Romanello",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Andrea Romanello",
-  ogImage: "astropaper-og.jpg",
+  desc: "Digital stories about software architect and full-stack developer",
+  title: "AndreaRomanello.com",
+  ogImage: "logo.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
 
 export const LOGO_IMAGE = {
   enable: false,
-  svg: true,
+  svg: false,
   width: 216,
   height: 46,
 };
@@ -25,6 +25,12 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/andrea-romanello/",
+    linkTitle: `${SITE.title} on LinkedIn`,
+    active: true,
+  },
+  {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
@@ -34,12 +40,6 @@ export const SOCIALS: SocialObjects = [
     name: "Instagram",
     href: "https://instagram.com/rommelandrea",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/andrea-romanello/",
-    linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
